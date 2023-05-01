@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bitwise Calculator</title>
+  <link href="./src/style.css" rel="stylesheet" type="text/css" />
+  <link href="./src/custom.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="./src/icon.png" />
+</head>
+
+<body>
+  <header class="heading">Calculator</header>
+  <div class="flex">
+    <div class="row">
+      <input class="input" type="text"/>
+    </div>
+    <div class="button-block">
+      <div class="row">
+        <button class="buttons functions">conv</button>
+        <button class="buttons trigno" data-sup="0.5">x<sup class='root'>1/2</sup></button>
+        <button class="buttons trigno" data-sup="2">x<sup>2</sup></button>
+        <button class="buttons trigno" data-sup="n">x<sup>n</sup></button>
+        <button class="buttons functions">(</button>
+        <button class="buttons functions">)</button>
+        <button class="buttons functions">←</button>
+      </div>
+    <div class="row">
+      <button class="buttons functions">AND</button>
+      <button class="buttons">7</button>
+      <button class="buttons">8</button>
+      <button class="buttons">9</button>
+      <button class="buttons functions">*</button>
+      <button class="buttons functions">%</button>
+      <button class="buttons functions">C</button>
+    </div>
+    <div class="row">
+      <button class="buttons functions">OR</button>
+      <button class="buttons">4</button>
+      <button class="buttons">5</button>
+      <button class="buttons">6</button>
+      <button class="buttons functions">/</button>
+      <button class="buttons trigno">sin</button>
+      <button class="buttons trigno">cosec</button>
+    </div>
+    <div class="row">
+      <button class="buttons functions">NOT</button>
+      <button class="buttons">1</button>
+      <button class="buttons">2</button>
+      <button class="buttons">3</button>
+      <button class="buttons functions">+</button>
+      <button class="buttons trigno">cos</button>
+      <button class="buttons trigno">sec</button>
+    </div>
+    <div class="row">
+      <button class="buttons functions">XOR</button>
+      <button class="buttons">0</button>
+      <button class="buttons">.</button>
+      <button class="buttons equal">=</button>
+      <button class="buttons functions">-</button>
+      <button class="buttons trigno">tan</button>
+      <button class="buttons trigno">cot</button>
+    </div>
+    
+    </div>
+  </div>
+  <script src="./src/working.js"></script>
+  <script src="./src/script.js"></script>
+</body>
+
+</html>
